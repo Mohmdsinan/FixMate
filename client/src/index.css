@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1B225B;
+  --color-accent: #39A8C7;
+  --color-darktext: #222222;
+  --color-lightbg: #F6F8FB;
+
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-body), 'Inter', sans-serif;
+  background-color: #F6F8FB;
+  color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), 'Poppins', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6F8FB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7d2da;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #39A8C7;
+}
+
+/* Fade-in animation (used by Navbar dropdown) */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.15s ease-out both;
+}
+
+/* Focus-visible ring for accessibility (brand accent) */
+*:focus-visible {
+  outline: 2px solid #39A8C7;
+  outline-offset: 2px;
+}

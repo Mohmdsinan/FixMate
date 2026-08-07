@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Arm (Navy) -->
+  <path d="M 85 20 H 145 V 35 H 102 V 55 H 85 V 20 Z" fill="#1B225B"/>
+  
+  <!-- Right Arm (Navy) -->
+  <path d="M 152 52 V 122 H 137 V 79 H 117 V 62 H 152 Z" fill="#1B225B"/>
+  
+  <!-- Left Arm (Navy) -->
+  <path d="M 47 78 V 26 H 64 V 69 H 84 V 86 H 47 Z" fill="#1B225B"/>
+  
+  <!-- Bottom Arm (Cyan Accent #39A8C7) -->
+  <path d="M 66 98 L 105 98 L 120 132 L 106 132 L 96 110 L 56 110 L 66 98 Z" fill="#39A8C7"/>
+  
+  <!-- Center letter F (Navy) -->
+  <path d="M 94 65 H 106 V 72 H 98 V 76 H 104 V 82 H 98 V 87 H 94 V 65 Z" fill="#1B225B"/>
+</svg>
